@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x77d" id="Bear Cave Portal">
+      <DisplayId>Bear Cave</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Bear Cave</DungeonName>
+      <Texture>
+         <File>bearCaveObjects8x8</File>
+         <Index>0</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <Animation prob="0.6" period="2.0">
+         <Frame time="0.3">
+            <Texture>
+               <File>bearCaveObjects8x8</File>
+               <Index>1</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.3">
+            <Texture>
+               <File>bearCaveObjects8x8</File>
+               <Index>2</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.8">
+            <Texture>
+               <File>bearCaveObjects8x8</File>
+               <Index>3</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.3">
+            <Texture>
+               <File>bearCaveObjects8x8</File>
+               <Index>2</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.3">
+            <Texture>
+               <File>bearCaveObjects8x8</File>
+               <Index>1</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object>
+   <Object type="0x77e" id="Bear Cave Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Bear Cave Key</DisplayId>
+      <Texture>
+         <File>bearCaveObjects8x8</File>
+         <Index>4</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Bear Cave.</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Bear Cave Portal">Create</Activate>
+   </Object>
+   <Object type="0x77f" id="BlackBearCub">
+      <DisplayId>Black Bear Cub</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars8x8</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Black Magic</ObjectId>
+         <Damage>50</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x780" id="BrownBearCub">
+      <DisplayId>Brown Bear Cub</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars8x8</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Defense>15</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Brown Magic</ObjectId>
+         <Damage>50</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x781" id="GrizzlyBearCub">
+      <DisplayId>Grizzly Bear Cub</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars8x8</File>
+         <Index>2</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Defense>15</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Brown Magic</ObjectId>
+         <Damage>50</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x782" id="PandaBearCub">
+      <DisplayId>Panda Bear Cub</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars8x8</File>
+         <Index>3</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Defense>15</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Black Magic</ObjectId>
+         <Damage>50</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x783" id="BrownBear">
+      <DisplayId>Brown Bear</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Brown Magic</ObjectId>
+         <Damage>80</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x784" id="BrownBear2">
+      <DisplayId>Brown Bear2</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>bearCaveChars16x16</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Brown Magic</ObjectId>
+         <Damage>80</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+   </Object>
+</Objects>

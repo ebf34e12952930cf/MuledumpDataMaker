@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<GroundTypes>
+   <Ground type="0xb09" id="TUD Ground">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xbd8" id="TUD Boss Floor">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x27</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xbd9" id="TUD SemiFloor 1">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xbda" id="TUD SemiFloor 2">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1e</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xbdb" id="TUD SemiFloor 3">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xbcf" id="TUD Gold Lava Light">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x10</Index>
+      </Texture>
+      <Animate dx=".2" dy=".2">Flow</Animate>
+      <BlendPriority>7</BlendPriority>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>60</MaxDamage>
+   </Ground>
+   <Ground type="0xbd0" id="TUD Gold Lava Dark">
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x11</Index>
+      </Texture>
+      <Animate dx=".2" dy=".2">Flow</Animate>
+      <BlendPriority>7</BlendPriority>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>60</MaxDamage>
+   </Ground>
+</GroundTypes>

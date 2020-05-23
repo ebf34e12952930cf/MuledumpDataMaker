@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x70c0" id="Sun Laser 1">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x20</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70c1" id="Sun Laser 2">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x21</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70c2" id="Moonerang">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3b</Index>
+      </Texture>
+      <Rotation>50</Rotation>
+   </Object>
+   <Object type="0x70c3" id="Moonerang 50">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3b</Index>
+      </Texture>
+      <Rotation>50</Rotation>
+   </Object>
+   <Object type="0x70c4" id="Sun Wave">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x0b</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x70c5" id="Moon Wave">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x1b</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x70c6" id="Sun Laser 3">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x22</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70c7" id="Sun Laser 4">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x23</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70c8" id="Big Moonerang">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x24</Index>
+      </Texture>
+      <Rotation>40</Rotation>
+   </Object>
+   <Object type="0x70c9" id="Pink Stick">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3e</Index>
+      </Texture>
+      <Rotation>80</Rotation>
+   </Object>
+   <Object type="0x70ca" id="Pink Stick 2">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3e</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x70cb" id="Sun Bolt">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x0e</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x70cc" id="Moon Bolt">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x1e</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x70cd" id="WMiss">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xbc</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70ce" id="WSqare">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xbd</Index>
+      </Texture>
+   </Object>
+   <Object type="0x70cf" id="BMiss">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xbe</Index>
+      </Texture>
+   </Object>
+   <Object type="0x7030" id="BSqare">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xbf</Index>
+      </Texture>
+   </Object>
+   <Object type="0xe4b" id="KEG Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>KEG</DisplayId>
+      <DungeonName>KEG</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+   </Object>
+   <Object type="0xe4c" id="KEG Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>KEG Key</DisplayId>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to KEG. \n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="KEG Portal">CreatePortal</Activate>
+      <feedPower>200</feedPower>
+      <BagType>8</BagType>
+      <Track/>
+   </Object>
+   <Object type="0xe4d" id="kpk">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>KEG Permakey</DisplayId>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to KEG FOREVER, AND EVER, AND EVER... \n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Soulbound/>
+      <Activate id="KEG Portal">CreatePortal</Activate>
+      <feedPower>200</feedPower>
+      <BagType>8</BagType>
+      <Track/>
+      <InvUse/>
+   </Object>
+   <Object type="0xafd" id="Masamune2">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x228</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Description>A magnificent legendary blade which only cuts those who deserve death.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Masamune Slash</ObjectId>
+         <Speed>96</Speed>
+         <LifetimeMS>4000</LifetimeMS>
+         <MinDamage>135</MinDamage>
+         <MaxDamage>180</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0xafe" id="Masamune3">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x228</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Description>A magnificent legendary blade which only cuts those who deserve death.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Masamune Slash</ObjectId>
+         <Speed>40</Speed>
+         <LifetimeMS>4000</LifetimeMS>
+         <MinDamage>135</MinDamage>
+         <MaxDamage>180</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0xb00" id="KEG Staff Test 3">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Test.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Pink Stick 2</ObjectId>
+         <Speed>40</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>200</MaxDamage>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x7090" id="KEG Spell Test">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3c</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Description>Test.</Description>
+      <Sound>spell/magic_nova</Sound>
+      <Projectile>
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>120</Speed>
+         <MinDamage>80</MinDamage>
+         <MaxDamage>165</MaxDamage>
+         <LifetimeMS>1200</LifetimeMS>
+         <Boomerang/>
+      </Projectile>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <MpCost>80</MpCost>
+      <Activate numShots="8">BulletNova</Activate>
+      <feedPower>380</feedPower>
+   </Object>
+   <Object type="0x7091" id="KEG Staff Test">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Test.</Description>
+      <RateOfFire>0.13</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Pink Stick 2</ObjectId>
+         <Speed>120</Speed>
+         <MinDamage>600</MinDamage>
+         <MaxDamage>1000</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Amplitude>2</Amplitude>
+         <Frequency>1</Frequency>
+         <Boomerang/>
+         <FaceDir/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>1</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x7092" id="KEG Staff Test 2">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Test.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Pink Stick 2</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>200</MaxDamage>
+         <LifetimeMS>900</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>1</Frequency>
+         <Boomerang/>
+         <FaceDir/>
+      </Projectile>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x7095" id="Staff of Esben 2">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x550</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Perhaps all that remains of Esben, whoever he was.\n\nSprite Credits: Pfiffel</Description>
+      <RateOfFire>0.7</RateOfFire>
+      <Sound>weapon/sprite_wand</Sound>
+      <Projectile>
+         <ObjectId>Pfiffel Esben Shot</ObjectId>
+         <Speed>100</Speed>
+         <Size>90</Size>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>95</MaxDamage>
+         <LifetimeMS>720</LifetimeMS>
+         <Amplitude>1.35</Amplitude>
+         <Frequency>0.49</Frequency>
+         <MultiHit/>
+         <FaceDir/>
+      </Projectile>
+      <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>4</FameBonus>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>400</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x709d" id="KEG Main">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>54</Index>
+      </AnimatedTexture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>500000</MaxHitPoints>
+      <Z>0.3</Z>
+      <ShadowSize>50</ShadowSize>
+      <Quest/>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <Sound id="0">laser_build</Sound>
+      <Sound id="1">laser_hold</Sound>
+      <Sound id="2">laser_end</Sound>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>0</Damage>
+         <Speed>0</Speed>
+         <LifetimeMS>0</LifetimeMS>
+         <Amplitude>2</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Moonerang</ObjectId>
+         <Damage>200</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>4000</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+         <Amplitude>3.2</Amplitude>
+         <Frequency>1</Frequency>
+         <ArmorPiercing/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+         <ConditionEffect duration="5">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Moon Bolt</ObjectId>
+         <Damage>20</Damage>
+         <Speed>60</Speed>
+         <Size>140</Size>
+         <LifetimeMS>6000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Moon Bolt</ObjectId>
+         <Damage>20</Damage>
+         <Speed>60</Speed>
+         <Size>140</Size>
+         <LifetimeMS>6000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Damage>300</Damage>
+         <Speed>44</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>140</Size>
+         <MultiHit/>
+         <ConditionEffect duration="20">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="10">
+         <ObjectId>Sun Laser 3</ObjectId>
+         <Damage>350</Damage>
+         <Speed>100</Speed>
+         <Size>360</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <ConditionEffect duration="15">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Sun Laser 4</ObjectId>
+         <Damage>350</Damage>
+         <Speed>100</Speed>
+         <Size>360</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <ConditionEffect duration="15">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Sun Laser 1</ObjectId>
+         <Damage>100</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Sun Laser 2</ObjectId>
+         <Damage>100</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Moon Bolt</ObjectId>
+         <Damage>1</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>3300</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+         <Amplitude>3.2</Amplitude>
+         <Frequency>1</Frequency>
+         <FaceDir/>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>Moonerang</ObjectId>
+         <Damage>1</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>1</Damage>
+         <Speed>40</Speed>
+         <Size>200</Size>
+         <LifetimeMS>5000</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Size>150</Size>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="15">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Speed>80</Speed>
+         <Size>150</Size>
+         <LifetimeMS>10000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>5</Magnitude>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="17">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>100</Damage>
+         <Speed>80</Speed>
+         <Size>150</Size>
+         <LifetimeMS>14000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>7</Magnitude>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="12">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Damage>200</Damage>
+         <Speed>40</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>140</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="14">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Damage>200</Damage>
+         <Speed>55</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>140</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="16">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Damage>200</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>140</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7032" id="KEG PD Hole 2">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7033" id="KEG PD Hole 3">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7034" id="KEG PD Hole 4">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7035" id="KEG PD Hole 5">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7036" id="KEG PD Hole 6">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7037" id="KEG PD Hole 7">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Enemy/>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Speed>0</Speed>
+         <Damage>0</Damage>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>01600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>01</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>03200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>02</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>04800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>03</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>06400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>04</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>08000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>05</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>09600</LifetimeMS>
+         <Parametric/>
+         <Magnitude>06</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>11200</LifetimeMS>
+         <Parametric/>
+         <Magnitude>07</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>12800</LifetimeMS>
+         <Parametric/>
+         <Magnitude>08</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="29">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>14400</LifetimeMS>
+         <Parametric/>
+         <Magnitude>09</Magnitude>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="30">
+         <ObjectId>Big Moonerang</ObjectId>
+         <Damage>250</Damage>
+         <Size>130</Size>
+         <ArmorPiercing/>
+         <LifetimeMS>16000</LifetimeMS>
+         <Parametric/>
+         <Magnitude>10</Magnitude>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7093" id="KEG M Ground Spiral">
+      <Class>Character</Class>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>50</Size>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x31</Index>
+      </Texture>
+   </Object>
+   <Object type="0x7094" id="KEG M Ground Walk">
+      <Class>Character</Class>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>50</Size>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x31</Index>
+      </Texture>
+   </Object>
+   <Object type="0x7023" id="Timing Move Demo 1">
+      <Class>Character</Class>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Size>80</Size>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2c</Index>
+      </Texture>
+   </Object>
+   <Object type="0x7025" id="Timing Move Demo 3">
+      <Class>Character</Class>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Size>80</Size>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2c</Index>
+      </Texture>
+   </Object>
+   <Object type="0x7024" id="Timing Move Demo 2">
+      <Class>Character</Class>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Size>80</Size>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x2c</Index>
+      </Texture>
+   </Object>
+   <Object type="0x709e" id="KEG Shield">
+      <Class>Character</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x03</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>50000</MaxHitPoints>
+      <Z>0.3</Z>
+      <ShadowSize>50</ShadowSize>
+   </Object>
+   <Object type="0x7060" id="KEG PSDone">
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x16</Index>
+      </Texture>
+      <Size>120</Size>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x7061" id="KEG PMDone">
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x17</Index>
+      </Texture>
+      <Size>120</Size>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x7062" id="KEG PMDoneSwitch">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x16</Index>
+      </Texture>
+      <Size>120</Size>
+      <ShadowSize>80</ShadowSize>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x7063" id="KEG PSDoneSwitch">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x06</Index>
+      </Texture>
+      <Size>120</Size>
+      <ShadowSize>80</ShadowSize>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x7064" id="KEG PSDonePad">
+      <Class>Character</Class>
+      <DrawOnGround/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xa6</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xa7</Index>
+         </Texture>
+      </AltTexture>
+   </Object>
+   <Object type="0x7065" id="KEG PMDonePad">
+      <Class>Character</Class>
+      <DrawOnGround/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xb7</Index>
+         </Texture>
+      </AltTexture>
+   </Object>
+   <Object type="0x70e0" id="KEG PSa">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1e</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70e1" id="KEG PMa">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70e2" id="KEG PSa0">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x16</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x17</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x18</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70e3" id="KEG PSa1">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x06</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>200000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70e4" id="KEG PMa0">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x06</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x07</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x08</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70e5" id="KEG PMa1">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x16</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>200000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70e6" id="KEG PSb">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1e</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70e7" id="KEG PMb">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70f3" id="KEG PSb0R">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70f4" id="KEG PMb0R">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70f5" id="KEG PSb1R">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70f6" id="KEG PMb1R">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70e8" id="KEG PSb0">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x06</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70e9" id="KEG PMb0">
+      <Class>Character</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x16</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70ea" id="KEG PSb1">
+      <Class>Character</Class>
+      <DrawOnGround/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xa6</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xa7</Index>
+         </Texture>
+      </AltTexture>
+   </Object>
+   <Object type="0x70eb" id="KEG PMb1">
+      <Class>Character</Class>
+      <DrawOnGround/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xb7</Index>
+         </Texture>
+      </AltTexture>
+   </Object>
+   <Object type="0x70ec" id="KEG PSc">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1e</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70ed" id="KEG PMc">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>120</ShadowSize>
+   </Object>
+   <Object type="0x70f7" id="KEG Pc0R">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70ee" id="KEG PSc0">
+      <Class>Character</Class>
+      <Enemy/>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x06</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xa5</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70ef" id="KEG PMc0">
+      <Class>Character</Class>
+      <Enemy/>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x16</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0xb5</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70f0" id="KEG PSc1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xa5</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70f1" id="KEG PMc1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Model>Obelisk</Model>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0xb5</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>0.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+   </Object>
+   <Object type="0x70f2" id="KEG PcKill">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x7416" id="KEG Switches">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xb5</Index>
+      </Texture>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x7417" id="KEG Switch 0">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x03</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>120</Size>
+      <XpMult>0</XpMult>
+      <Z>0.3</Z>
+   </Object>
+   <Object type="0x7418" id="KEG Switch 1">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x13</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>0</Size>
+      <XpMult>0</XpMult>
+      <Z>0.5</Z>
+   </Object>
+   <Object type="0x7419" id="KEG Small Switch">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x23</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>120</Size>
+      <XpMult>0</XpMult>
+      <Z>0.3</Z>
+   </Object>
+   <Object type="0x70b0" id="KEG S Hall Switch">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x03</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>120</Size>
+      <XpMult>0</XpMult>
+      <Z>0.3</Z>
+   </Object>
+   <Object type="0x70b1" id="KEG M Hall Switch">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x13</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>120</Size>
+      <XpMult>0</XpMult>
+      <Z>0.3</Z>
+   </Object>
+   <Object type="0x70b2" id="KEG N Hall Switch">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x23</Index>
+      </Texture>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Size>120</Size>
+      <XpMult>0</XpMult>
+      <Z>0.5</Z>
+   </Object>
+   <Object type="0x70d0" id="KEG Sun Bomb">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>20000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Sun Wave</ObjectId>
+         <Size>140</Size>
+         <Damage>200</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <ConditionEffect duration="5">Dazed</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x70d1" id="KEG Moon Bomb">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x1c</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>20000</MaxHitPoints>
+      <Projectile id="0">
+         <ObjectId>Moon Wave</ObjectId>
+         <Size>140</Size>
+         <Damage>200</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <ConditionEffect duration="5">Weak</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x70d2" id="KEG Sun Explosion">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <Effect color="0xf0e920" minRadius="0.0" maxRadius="2.5" rise="2.5" life="1.0" amount="20" speed="0.02">Circle</Effect>
+   </Object>
+   <Object type="0x70d3" id="KEG Moon Explosion">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <Effect color="0x20a1f0" minRadius="0.0" maxRadius="2.5" rise="2.5" life="1.0" amount="20" speed="0.02">Circle</Effect>
+   </Object>
+   <Object type="0x70d4" id="KEG Sun Roomclear">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <Effect color="0xf0e920" minRadius="0.0" maxRadius="10" rise="2.5" life="4.0" amount="40" speed="0.02">Circle</Effect>
+   </Object>
+   <Object type="0x70d5" id="KEG Moon Roomclear">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <Effect color="0x20a1f0" minRadius="0.0" maxRadius="10" rise="2.5" life="4.0" amount="40" speed="0.02">Circle</Effect>
+   </Object>
+   <Object type="0x70fa" id="KEG SE1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x25</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Speed>65</Speed>
+         <Damage>200</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Sun Laser 4</ObjectId>
+         <Speed>65</Speed>
+         <Damage>300</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Sun Bolt</ObjectId>
+         <Speed>100</Speed>
+         <Damage>150</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70fb" id="KEG ME1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x24</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Moon Bolt</ObjectId>
+         <Speed>60</Speed>
+         <Damage>200</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Moon Bolt</ObjectId>
+         <Speed>40</Speed>
+         <Damage>300</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70f8" id="KEG Moon Acolyte">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x19</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Gold Bullet</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>80</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+   </Object>
+   <Object type="0x70a0" id="KEG Sun Acolyte">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x18</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Gold Bullet</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>80</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Idol Wave</ObjectId>
+         <Speed>40</Speed>
+         <Damage>1</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Idol Wave</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Idol Wave</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>120</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Idol Wave</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="6">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x70a1" id="KEG Twilight Golem">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x10</Index>
+      </Texture>
+      <Size>140</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+   </Object>
+   <Object type="0x70a2" id="KEG Twilight Golem Fist">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x14</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects16x16</File>
+            <Index>0x13</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>krathTestObjects16x16</File>
+            <Index>0x12</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="3">
+         <Texture>
+            <File>krathTestObjects16x16</File>
+            <Index>0x11</Index>
+         </Texture>
+      </AltTexture>
+      <Size>140</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Defense>50</Defense>
+      <Projectile id="0">
+         <ObjectId>Sky Slash</ObjectId>
+         <Speed>120</Speed>
+         <Damage>1</Damage>
+         <Size>120</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Blue Magic Attack</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>500</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x70a3" id="KEG Little Sun Priestess">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x30</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Sun Laser 3</ObjectId>
+         <Damage>1</Damage>
+         <Speed>70</Speed>
+         <Size>240</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Sun Laser 4</ObjectId>
+         <Damage>1</Damage>
+         <Speed>70</Speed>
+         <Size>240</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Yellow Missile</ObjectId>
+         <Damage>1</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70a4" id="KEG Little Moon Priestess">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x35</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1400</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>800</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Moonerang</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>600</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.8</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Dragon Attack Black Bullet</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70a5" id="KEG Wall Clearer">
+      <Class>GameObject</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>70</Index>
+      </AnimatedTexture>
+      <Effect color="0xFFFFFF" minRadius="1" maxRadius="10" rise="2.5" life="4" zOffset="3" amount="40" speed="0.03">Circle</Effect>
+   </Object>
+   <Object type="0x70a6" id="KEG Wall Clearer Small">
+      <Class>GameObject</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>70</Index>
+      </AnimatedTexture>
+      <Size>40</Size>
+      <Effect color="0xFFFFFF" minRadius="0" maxRadius="3" rise="2.5" life="1.6" zOffset="3" amount="30" speed="0.05">Circle</Effect>
+   </Object>
+   <Object type="0x70a7" id="KEG Beam">
+      <Class>GameObject</Class>
+      <Effect color="0xFFFF00" minRadius="0.5" maxRadius="3" rise="0.5" speed="1">SkyBeam</Effect>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70a8" id="KEG Circle">
+      <Class>GameObject</Class>
+      <Effect color="0x00FFFF" minRadius="0" maxRadius="3" rise="1" life="4" zOffset="3" amount="30" speed="0.05">Circle</Effect>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x70a9" id="KEG SQ">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x36</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>50000</MaxHitPoints>
+      <ShadowSize>100</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>WSqare</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <NoRotation/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>WMiss</ObjectId>
+         <Speed>40</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>WMiss</ObjectId>
+         <Speed>41.23105625617661</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>WMiss</ObjectId>
+         <Speed>44.721359549995796</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>WMiss</ObjectId>
+         <Speed>50</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>WMiss</ObjectId>
+         <Speed>56.568542494923804</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70aa" id="KEG MQ">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x37</Index>
+      </Texture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>100</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>BSqare</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <NoRotation/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>40.00000000</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>40.79215611</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>43.08131846</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>46.64761516</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>51.22499390</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>BMiss</ObjectId>
+         <Damage>150</Damage>
+         <Size>80</Size>
+         <MultiHit/>
+         <Speed>56.56854249</Speed>
+         <LifetimeMS>3125</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x70ab" id="KEG Shadow Spire">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1b</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects16x16</File>
+            <Index>0x1d</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+   </Object>
+   <Object type="0x70ac" id="KEG Light Spire">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x1a</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>krathTestObjects16x16</File>
+            <Index>0x1c</Index>
+         </Texture>
+      </AltTexture>
+      <Size>120</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <ShadowSize>50</ShadowSize>
+   </Object>
+   <Object type="0x70ad" id="KEG MQ1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x37</Index>
+      </Texture>
+      <Size>60</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>50000</MaxHitPoints>
+      <ShadowSize>100</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>BMiss</ObjectId>
+         <Speed>30</Speed>
+         <Damage>1</Damage>
+         <Size>70</Size>
+         <LifetimeMS>700</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x70ae" id="KEG MQ2">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects16x16</File>
+         <Index>0x37</Index>
+      </Texture>
+      <Size>50</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>50000</MaxHitPoints>
+      <ShadowSize>100</ShadowSize>
+      <Projectile id="0">
+         <ObjectId>BMiss</ObjectId>
+         <Speed>30</Speed>
+         <Damage>200</Damage>
+         <Size>80</Size>
+         <LifetimeMS>800</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7100" id="KEG S Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>1</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7101" id="KEG M Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x10</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x11</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7102" id="KEG N Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x20</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x21</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7103" id="KEG Dest S Wall">
+      <Class>Wall</Class>
+      <Enemy/>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x09</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x0a</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7104" id="KEG Dest M Wall">
+      <Class>Wall</Class>
+      <Enemy/>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x19</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x1a</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7105" id="KEG Dest N Wall">
+      <Class>Wall</Class>
+      <Enemy/>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x29</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x2a</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7106" id="KEG Trig S Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x04</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x05</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7107" id="KEG Trig M Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x14</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x15</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0x7108" id="KEG Trig N Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x24</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>krathTestObjects08x08</File>
+            <Index>0x25</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+</Objects>

@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x8fb2" id="GLWhip">
+      <Class>Projectile</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x14</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x15</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x15</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x15</Index>
+         </Texture>
+      </RandomTexture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0x21b1" id="GL Staff">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x12</Index>
+      </Texture>
+   </Object>
+   <Object type="0x8fb5" id="GLSpinner">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x16</Index>
+      </Texture>
+      <Rotation>100</Rotation>
+   </Object>
+   <Object type="0x21b2" id="GL Wand">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x13</Index>
+         <Rotation>90</Rotation>
+      </Texture>
+   </Object>
+   <Object type="0x21b5" id="GL Green Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x10</Index>
+      </Texture>
+   </Object>
+   <Object type="0x21b0" id="GL Big Green Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x11</Index>
+      </Texture>
+      <Rotation>200</Rotation>
+   </Object>
+   <Object type="0x8fb3" id="FishLordWhip">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x18</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>-1</Tier>
+      <Description>This whip looks like it might get tangled easily.</Description>
+      <RateOfFire>3</RateOfFire>
+      <Sound>spell/light_heal</Sound>
+      <Projectile>
+         <ObjectId>GLWhip</ObjectId>
+         <Speed>90</Speed>
+         <MinDamage>83</MinDamage>
+         <MaxDamage>88</MaxDamage>
+         <LifetimeMS>410</LifetimeMS>
+         <Frequency>1</Frequency>
+         <Size>100</Size>
+      </Projectile>
+      <NumProjectiles>1</NumProjectiles>
+      <ArcGap>333</ArcGap>
+      <BagType>6</BagType>
+      <FameBonus>5</FameBonus>
+      <feedPower>750</feedPower>
+      <Soulbound/>
+      <DisplayId>Fish Lord Whip</DisplayId>
+   </Object>
+   <Object type="0x21b3" id="Staff of the Acidic Gem">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Acidic</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>GL Staff</ObjectId>
+         <Speed>200</Speed>
+         <MinDamage>1</MinDamage>
+         <MaxDamage>205</MaxDamage>
+         <LifetimeMS>410</LifetimeMS>
+         <Amplitude>0.3</Amplitude>
+         <Frequency>2</Frequency>
+         <Size>100</Size>
+      </Projectile>
+      <NumProjectiles>2</NumProjectiles>
+      <Soulbound/>
+      <ArcGap>0</ArcGap>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <feedPower>69</feedPower>
+      <DisplayId>Staff of the Acidic Gem</DisplayId>
+   </Object>
+   <Object type="0x21b4" id="Wand of the Alkaline Gem">
+      <Class>Equipment</Class>
+      <Item/>
+      <Soulbound/>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Description>Alkaline</Description>
+      <RateOfFire>0.2</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>GL Wand</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>330</MinDamage>
+         <MaxDamage>340</MaxDamage>
+         <LifetimeMS>1200</LifetimeMS>
+         <Amplitude>0.01</Amplitude>
+         <Frequency>1</Frequency>
+         <Size>100</Size>
+         <MultiHit/>
+         <Wavy/>
+      </Projectile>
+      <NumProjectiles>1</NumProjectiles>
+      <ArcGap>10</ArcGap>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <feedPower>120</feedPower>
+      <DisplayId>Wand of the Alkaline Gem</DisplayId>
+   </Object>
+   <Object type="0x21d7" id="Fluoroantimonic Acid">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x23</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Description>This acid looks like it could burn though anything!</Description>
+      <Usable/>
+      <MpCost>160</MpCost>
+      <Activate radius="4" totalDamage="500" duration="5" color="00ff9d">PoisonGrenade</Activate>
+      <Activate effect="Armor Broken" duration="3" range="4" color="00ff9d" target="enemy" center="player">GenericActivate</Activate>
+      <ActivateOnEquip stat="20" amount="-3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="5">IncrementStat</ActivateOnEquip>
+      <Soulbound/>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <feedPower>950</feedPower>
+      <DisplayId>Fluoroantimonic Acid</DisplayId>
+   </Object>
+   <Object type="0x21fc" id="Underwater City Portal">
+      <DisplayId>Underwater City</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Underwater City</DungeonName>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x22</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x21fd" id="Underwater City Key">
+      <DisplayId>Underwater City Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x24</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key to a place which might be underwater</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <feedPower>200</feedPower>
+      <Activate id="Underwater City Portal">Create</Activate>
+   </Object>
+   <Object type="0x21ab" id="GemLord">
+      <DisplayId>Fish God</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>gemLordChars16x16</File>
+            <Index>4</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>gemLordChars16x16</File>
+            <Index>3</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/golems_hit</HitSound>
+      <DeathSound>monster/skull_shrine_death</DeathSound>
+      <StunImmune/>
+      <StasisImmune/>
+      <Size>20</Size>
+      <MaxHitPoints>600000</MaxHitPoints>
+      <Defense>10</Defense>
+   </Object>
+   <Object type="0x8fae" id="WinterEnt">
+      <DisplayId>Fish Lord</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>gemLordChars16x16</File>
+            <Index>3</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>gemLordChars16x16</File>
+            <Index>4</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="3">
+         <AnimatedTexture>
+            <File>gemLordChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <StunImmune/>
+      <StasisImmune/>
+      <LeachHealth/>
+      <Defense>45</Defense>
+      <Quest/>
+      <Level>20</Level>
+      <Size>140</Size>
+      <MaxHitPoints>290000</MaxHitPoints>
+      <XpMult>17</XpMult>
+      <HitSound>monster/ents_hit</HitSound>
+      <DeathSound>monster/ents_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>139</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>0.68</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>139</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>0.18</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>145</Damage>
+         <Speed>20</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>120</Size>
+         <Amplitude>0.48</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Crystal Shard</ObjectId>
+         <Damage>75</Damage>
+         <Speed>57</Speed>
+         <LifetimeMS>1900</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <ConditionEffect duration="1">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Blue Boomerang</ObjectId>
+         <Speed>35.5</Speed>
+         <Damage>60</Damage>
+         <LifetimeMS>1792</LifetimeMS>
+         <Amplitude>2.06</Amplitude>
+         <Frequency>0.5</Frequency>
+         <Size>60</Size>
+         <ConditionEffect duration="1">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Blue Boomerang</ObjectId>
+         <Speed>30</Speed>
+         <Damage>60</Damage>
+         <LifetimeMS>370</LifetimeMS>
+         <Amplitude>1.15</Amplitude>
+         <Frequency>0.5</Frequency>
+         <MultiHit/>
+         <Size>100</Size>
+         <ConditionEffect duration="1">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>0</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Spinner</ObjectId>
+         <Speed>0</Speed>
+         <Damage>357</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Z Blast</ObjectId>
+         <Damage>168</Damage>
+         <Speed>50</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>Ghost Sr Slash</ObjectId>
+         <Damage>216</Damage>
+         <Speed>27</Speed>
+         <LifetimeMS>3750</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x8faf" id="WinterEntEasy">
+      <DisplayId>Fish Royal</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <StunImmune/>
+      <StasisImmune/>
+      <HitSound>monster/ents_hit</HitSound>
+      <DeathSound>monster/ents_death</DeathSound>
+      <Defense>25</Defense>
+      <Quest/>
+      <Level>20</Level>
+      <Size>140</Size>
+      <MaxHitPoints>120000</MaxHitPoints>
+      <XpMult>10</XpMult>
+      <Projectile id="0">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>89</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>0.68</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>89</Damage>
+         <Speed>25</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>100</Size>
+         <Amplitude>0.18</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>GLSpinner</ObjectId>
+         <Damage>149</Damage>
+         <Speed>20</Speed>
+         <LifetimeMS>4200</LifetimeMS>
+         <Size>200</Size>
+         <Amplitude>0.48</Amplitude>
+         <Frequency>5</Frequency>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Crystal Shard</ObjectId>
+         <Damage>50</Damage>
+         <Speed>50</Speed>
+         <LifetimeMS>1900</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <ConditionEffect duration="1">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Blue Boomerang</ObjectId>
+         <Speed>35.5</Speed>
+         <Damage>30</Damage>
+         <LifetimeMS>1792</LifetimeMS>
+         <Amplitude>2.06</Amplitude>
+         <Frequency>0.5</Frequency>
+         <Size>60</Size>
+         <ConditionEffect duration="1">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Blue Boomerang</ObjectId>
+         <Speed>30</Speed>
+         <Damage>30</Damage>
+         <LifetimeMS>370</LifetimeMS>
+         <Amplitude>1.15</Amplitude>
+         <Frequency>0.5</Frequency>
+         <MultiHit/>
+         <Size>100</Size>
+         <ConditionEffect duration="1">Weak</ConditionEffect>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>0</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Spinner</ObjectId>
+         <Speed>0</Speed>
+         <Damage>257</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Z Blast</ObjectId>
+         <Damage>118</Damage>
+         <Speed>45</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>Ghost Sr Slash</ObjectId>
+         <Damage>176</Damage>
+         <Speed>27</Speed>
+         <LifetimeMS>3750</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x8fa1" id="WinterEntbauble">
+      <DisplayId>Fish God</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <ParalyzeImmune/>
+      <StasisImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>19000</MaxHitPoints>
+      <XpMult>1</XpMult>
+      <Projectile id="12">
+         <ObjectId>Sonic Bat Spinner</ObjectId>
+         <Speed>40</Speed>
+         <Damage>167</Damage>
+         <Size>100</Size>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Sonic Bat Spinner</ObjectId>
+         <Speed>30</Speed>
+         <Damage>231</Damage>
+         <Size>140</Size>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Sonic Bat Boom</ObjectId>
+         <Speed>55</Speed>
+         <Damage>20</Damage>
+         <Size>50</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <ConditionEffect duration="1.4">Quiet</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Sonic Bat Boom</ObjectId>
+         <Speed>55</Speed>
+         <Damage>70</Damage>
+         <Size>100</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <ConditionEffect duration="2">Quiet</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x8fb1" id="WinterEntbaubleEasy">
+      <DisplayId>Fish God</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>11</Index>
+      </AnimatedTexture>
+      <ParalyzeImmune/>
+      <StasisImmune/>
+      <Size>80</Size>
+      <MaxHitPoints>12000</MaxHitPoints>
+      <XpMult>1</XpMult>
+      <Projectile id="12">
+         <ObjectId>Sonic Bat Spinner</ObjectId>
+         <Speed>40</Speed>
+         <Damage>112</Damage>
+         <Size>80</Size>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Sonic Bat Spinner</ObjectId>
+         <Speed>30</Speed>
+         <Damage>161</Damage>
+         <Size>120</Size>
+         <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x21c2" id="GLRocks">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x0b</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x0c</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x0d</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x0e</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x21c3" id="GLstatue">
+      <Class>Character</Class>
+      <Enemy/>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects16x16</File>
+            <Index>0x04</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects16x16</File>
+            <Index>0x05</Index>
+         </Texture>
+      </RandomTexture>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>12000</MaxHitPoints>
+      <XpMult>1</XpMult>
+      <Projectile id="1">
+         <ObjectId>GL Big Green Shot</ObjectId>
+         <Speed>27</Speed>
+         <Damage>70</Damage>
+         <Size>80</Size>
+         <LifetimeMS>2100</LifetimeMS>
+         <ConditionEffect duration="1">Quiet</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x21d9" id="GLpuffer">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x00</Index>
+      </AnimatedTexture>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>12000</MaxHitPoints>
+      <XpMult>1</XpMult>
+      <Projectile id="1">
+         <ObjectId>Hunter Spear</ObjectId>
+         <Speed>75</Speed>
+         <Damage>20</Damage>
+         <Size>40</Size>
+         <LifetimeMS>558</LifetimeMS>
+         <ConditionEffect duration="1.6">Stunned</ConditionEffect>
+         <ConditionEffect duration="1.6">Silenced</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x21d1" id="GlFountainofYouth">
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0b</Index>
+      </Texture>
+      <Static/>
+      <Size>120</Size>
+      <ShadowSize>0</ShadowSize>
+      <OccupySquare/>
+   </Object>
+   <Object type="0x21d0" id="GlLight">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0a</Index>
+      </Texture>
+      <Static/>
+      <Size>100</Size>
+      <ShadowSize>0</ShadowSize>
+      <OccupySquare/>
+   </Object>
+   <Object type="0x21d3" id="GlStatue2">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects16x16</File>
+            <Index>0x06</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects16x16</File>
+            <Index>0x07</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <Size>100</Size>
+      <ShadowSize>0</ShadowSize>
+      <OccupySquare/>
+   </Object>
+   <Object type="0x21b6" id="GLInsideWall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x37</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x38</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x2202" id="GLInsideWallD">
+      <Class>Wall</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x47</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x48</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c0" id="GLInsideWallholeleft">
+      <Class>Wall</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3b</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x38</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c4" id="GLInsideWallholemid">
+      <Class>Wall</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3c</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x38</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c5" id="GLInsideWallholeright">
+      <Class>Wall</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x38</Index>
+         </Texture>
+      </Top>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c6" id="GLPurpledoubleP">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+   </Object>
+   <Object type="0x2201" id="GLPurpledoublePD">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x10</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c7" id="GLPurpledoubleL">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x01</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x2200" id="GLPurpledoubleLD">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x11</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c8" id="GLPurpledoubleW">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x02</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21ff" id="GLPurpledoubleWD">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x12</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21c9" id="GLPurpledoubleW2">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x03</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21fe" id="GLPurpledoubleW2D">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x13</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21ce" id="GLPurpledoubleB">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x08</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x21cf" id="GLPurpledoubleBB">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x09</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object>
+   <Object type="0x8c1e" id="AirBubble Animation">
+      <DisplayId>Air Bubble</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <Z>0.2</Z>
+      <NoMiniMap/>
+      <Flying/>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c0d" id="AirBubble Main">
+      <DisplayId>AirBubble</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <Z>0.2</Z>
+      <Flying/>
+      <NoMiniMap/>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c1d" id="Seaweed N Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c1b" id="AirBubble N">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c1c" id="Seaweed N Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c1f" id="Seaweed NE Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c2a" id="AirBubble NE">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c2b" id="Seaweed NE Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c40" id="Seaweed E Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c2d" id="AirBubble E">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c2e" id="Seaweed E Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c30" id="Seaweed SE Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c31" id="AirBubble SE">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c32" id="Seaweed SE Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c33" id="Seaweed S Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c34" id="AirBubble S">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c35" id="Seaweed S Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c36" id="Seaweed SW Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c37" id="AirBubble SW">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c38" id="Seaweed SW Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c39" id="Seaweed W Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c3a" id="AirBubble W">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c3c" id="Seaweed W Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c3d" id="Seaweed NW Alive">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <Effect>Vent</Effect>
+   </Object>
+   <Object type="0x8c3e" id="AirBubble NW">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <MinSize>20</MinSize>
+      <MaxSize>60</MaxSize>
+   </Object>
+   <Object type="0x8c3f" id="Seaweed NW Dead">
+      <DisplayId>Winter Ent</DisplayId>
+      <Class>Character</Class>
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x67</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+   </Object>
+   <Object type="0x8c17" id="SeaCurrentAnchorN">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c10" id="SeaCurrentAnchorNE">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c11" id="SeaCurrentAnchorE">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c12" id="SeaCurrentAnchorSE">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c13" id="SeaCurrentAnchorS">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c14" id="SeaCurrentAnchorSW">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c15" id="SeaCurrentAnchorW">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x8c16" id="SeaCurrentAnchorNW">
+      <Class>Character</Class>
+      <MaxHitPoints>69000</MaxHitPoints>
+      <Defense>100</Defense>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x21d5" id="UCdps">
+      <DisplayId>Infected Angler fish</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>9</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>120</Size>
+      <MaxHitPoints>29000</MaxHitPoints>
+      <Defense>25</Defense>
+      <XpMult>5.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Water Storm</ObjectId>
+         <Damage>125</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>60</Size>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Bubble</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Amplitude>0.31</Amplitude>
+         <Frequency>1.48</Frequency>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x8c20" id="UCdpsClone">
+      <DisplayId>Infected Angler fish</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>9</Index>
+      </AnimatedTexture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <MaxHitPoints>7000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Projectile id="1">
+         <ObjectId>Water Storm</ObjectId>
+         <Damage>125</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>60</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x2205" id="GLSquid">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x4e</Index>
+      </Texture>
+      <Rotation>50</Rotation>
+   </Object>
+   <Object type="0x2204" id="GLTowerIShot">
+      <DisplayId>Fish Tower</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>9</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>80</Size>
+      <MaxHitPoints>40000</MaxHitPoints>
+      <Defense>100</Defense>
+      <XpMult>0.0</XpMult>
+      <Rotation>90</Rotation>
+      <Projectile id="1">
+         <ObjectId>GLSquid</ObjectId>
+         <Speed>50</Speed>
+         <Damage>180</Damage>
+         <Size>100</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c21" id="GLSnakeHead">
+      <DisplayId>ssSSSSss</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x01</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>120</Size>
+      <MaxHitPoints>21000</MaxHitPoints>
+      <Defense>50</Defense>
+      <XpMult>5</XpMult>
+      <ParalyzeImmune/>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>30</Speed>
+         <Damage>180</Damage>
+         <Size>100</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c22" id="GLSnakebody">
+      <DisplayId>ssSSSSss</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x02</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>21000</MaxHitPoints>
+      <Defense>110</Defense>
+      <XpMult>0.0</XpMult>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>30</Speed>
+         <Damage>180</Damage>
+         <Size>110</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c23" id="GLSnakebody1">
+      <DisplayId>ssSSSSss</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x02</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>21000</MaxHitPoints>
+      <Defense>110</Defense>
+      <XpMult>0.0</XpMult>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>38</Speed>
+         <Damage>160</Damage>
+         <Size>100</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c24" id="GLSnakebody2">
+      <DisplayId>ssSSSSss</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x02</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>21000</MaxHitPoints>
+      <Defense>110</Defense>
+      <XpMult>0.0</XpMult>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>42</Speed>
+         <Damage>140</Damage>
+         <Size>90</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c25" id="GLSnakebody3">
+      <DisplayId>ssSSSSss</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>0x02</Index>
+      </AnimatedTexture>
+      <HitSound>monster/skeletons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>21000</MaxHitPoints>
+      <Defense>110</Defense>
+      <XpMult>0.0</XpMult>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>47</Speed>
+         <Damage>100</Damage>
+         <Size>80</Size>
+         <LifetimeMS>3900</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x21d6" id="UCTanker">
+      <DisplayId>Infected Angler fish</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>6</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>33000</MaxHitPoints>
+      <Defense>90</Defense>
+      <XpMult>9.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Dragon Attack Blue Blast</ObjectId>
+         <Speed>40</Speed>
+         <Damage>100</Damage>
+         <Size>80</Size>
+         <LifetimeMS>1100</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Water Shot</ObjectId>
+         <Speed>50</Speed>
+         <Damage>40</Damage>
+         <Size>40</Size>
+         <LifetimeMS>700</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Pink Swipe</ObjectId>
+         <Speed>60</Speed>
+         <Damage>10</Damage>
+         <Size>80</Size>
+         <LifetimeMS>800</LifetimeMS>
+         <Amplitude>0.2</Amplitude>
+         <Frequency>1</Frequency>
+         <PassesCover/>
+         <ConditionEffect duration="2.2">Armor Broken</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Water Shot</ObjectId>
+         <Speed>30</Speed>
+         <Damage>90</Damage>
+         <Size>60</Size>
+         <LifetimeMS>1400</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c27" id="GLBoss Bomb Tanks">
+      <DisplayId>EvilPevil</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>3</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>80</Size>
+      <MaxHitPoints>28696</MaxHitPoints>
+      <Defense>28</Defense>
+      <XpMult>9.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Bone Dagger Shot</ObjectId>
+         <Speed>65</Speed>
+         <Damage>125</Damage>
+         <Size>80</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>0</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Spinner</ObjectId>
+         <Speed>0</Speed>
+         <Damage>357</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c29" id="GLBoss playersticker">
+      <DisplayId>EvilPevil</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>20</Size>
+      <MaxHitPoints>28696</MaxHitPoints>
+      <Defense>28</Defense>
+      <XpMult>9.0</XpMult>
+      <NoMiniMap/>
+      <Projectile id="0">
+         <ObjectId>Bone Dagger Shot</ObjectId>
+         <Speed>65</Speed>
+         <Damage>55</Damage>
+         <Size>80</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>0</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Spinner</ObjectId>
+         <Speed>0</Speed>
+         <Damage>357</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c28" id="GLBoss Bomb movements">
+      <DisplayId>EvilPevil</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars8x8</File>
+         <Index>3</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>0</Size>
+      <MaxHitPoints>28696</MaxHitPoints>
+      <Defense>28</Defense>
+      <XpMult>9.0</XpMult>
+      <NoMiniMap/>
+      <Projectile id="5">
+         <ObjectId>Red Star</ObjectId>
+         <Speed>0</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Fire Spinner</ObjectId>
+         <Speed>0</Speed>
+         <Damage>357</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x8c42" id="GLBoss Troom Clue">
+      <DisplayId>oh no im anchor</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>gemLordObjects16x16</File>
+         <Index>0x1c</Index>
+      </Texture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>900</Defense>
+      <XpMult>1.0</XpMult>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x8c41" id="GL DO NOT SPAWN">
+      <DisplayId>beep boop</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Defense>900</Defense>
+      <XpMult>1.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Salmon Missile</ObjectId>
+         <Speed>32</Speed>
+         `
+         <Damage>100</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x8c26" id="GLExperimental">
+      <DisplayId>Infected Angler fish</DisplayId>
+      <Enemy/>
+      <Flying/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>gemLordChars16x16</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dragons_hit</HitSound>
+      <DeathSound>monster/skeletons_death</DeathSound>
+      <StunImmune/>
+      <Size>100</Size>
+      <MaxHitPoints>28696</MaxHitPoints>
+      <Defense>28</Defense>
+      <XpMult>9.0</XpMult>
+      <Projectile id="0">
+         <ObjectId>Pink Swipe</ObjectId>
+         <Speed>35</Speed>
+         <Damage>199</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2300</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Pink Swipe</ObjectId>
+         <Speed>50</Speed>
+         <Damage>10</Damage>
+         <Size>80</Size>
+         <LifetimeMS>2300</LifetimeMS>
+         <Amplitude>0.6</Amplitude>
+         <Frequency>2</Frequency>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+</Objects>

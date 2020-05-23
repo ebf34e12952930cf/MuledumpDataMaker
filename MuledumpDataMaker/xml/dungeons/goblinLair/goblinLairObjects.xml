@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0xb99" id="Phops laser">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x04</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb9a" id="Phops laser tip">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x05</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb9b" id="Sorc boomerang">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x06</Index>
+      </Texture>
+      <Rotation>50</Rotation>
+   </Object>
+   <Object type="0xb9c" id="Sorc Skull">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x07</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb9d" id="Mark grey 1">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x08</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb9e" id="Mark grey 2">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x09</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb9f" id="TUD red 1">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0a</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbb8" id="TUD red 2">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0b</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbb9" id="TUD red 3">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0c</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbba" id="TUD red 4">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0d</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbbb" id="Sorc yellow 1">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x0e</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbc0" id="TUD Staff Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x12</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbce" id="Rainbow Red">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x13</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbcf" id="Rainbow Orange">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x14</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd0" id="Rainbow Yellow">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x15</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd1" id="Rainbow Green">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x16</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd2" id="Rainbow Cyan">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x17</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd3" id="Rainbow Blue">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x18</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd4" id="Rainbow Purple">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x19</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd5" id="Rainbow Violet">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1a</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd6" id="Rainbow Pink">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1b</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xbd7" id="Rainbow Grey">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x1c</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+   <Object type="0xb6f" id="Goblin Lair Portal">
+      <DisplayId>Goblin Lair</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Goblin Lair</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0xbe8" id="Atraper Portal">
+      <DisplayId>Goblin Lair</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Atrapper</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0xb95" id="TUD Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x00</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>A mysterious staff with a dark and mysterious past...</Description>
+      <RateOfFire>0.75</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>TUD Staff Shot</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>25</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+         <Size>100</Size>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>4</NumProjectiles>
+      <ArcGap>25</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>5</feedPower>
+      <DisplayId>Broken Staff of The Fabled Sorcerer</DisplayId>
+   </Object>
+   <Object type="0xb96" id="TUD Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x01</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Description>A skull extremely powerful skull with the ability to raise the dead. Jk just red drakes..for now.</Description>
+      <RateOfFire>1</RateOfFire>
+      <BagType>6</BagType>
+      <MpCost>200</MpCost>
+      <Usable/>
+      <Cooldown>8</Cooldown>
+      <Activate radius="2.5" totalDamage="1000">VampireBlast</Activate>
+      <Activate objectId="Red Drake">Pet</Activate>
+      <feedPower>500</feedPower>
+      <DisplayId>Skull of Divine Intervention</DisplayId>
+   </Object>
+   <Object type="0xb97" id="TUD Robe">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x02</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Description>A robe worn by the greats in realm history.</Description>
+      <ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="45">IncrementStat</ActivateOnEquip>
+      <BagType>4</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>500</feedPower>
+      <DisplayId>Robe of Ancient Mastery</DisplayId>
+   </Object>
+   <Object type="0xb98" id="TUD Ring">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x03</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>All that is left of the once fabled sorcerer..</Description>
+      <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
+      <BagType>6</BagType>
+      <feedPower>500</feedPower>
+      <DisplayId>Ring of the supreme sorcerer.</DisplayId>
+   </Object>
+   <Object type="0xbc3" id="Goblin Dungeon Key">
+      <DisplayId>Goblin Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x75</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens the way to vast treasures.</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Goblin Lair Portal">Create</Activate>
+   </Object>
+   <Object type="0xbe7" id="Atrapper Dungeon Key">
+      <DisplayId>Goblin Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x75</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens the way to vast treasures (or idiocy, your choice).</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Atrapper Portal">Create</Activate>
+   </Object>
+   <Object type="0x931" id="TUD mini boss 1">
+      <DisplayId>X'Kiddforceior the Corrupter</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.4">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Dire Blast</ObjectId>
+         <Damage>100</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0xb8b" id="TUD Kidd 1">
+      <DisplayId>X'Kiddforceior the Corrupter</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Dire Blast</ObjectId>
+         <Damage>50</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="2">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0xb8c" id="TUD Kidd 2">
+      <DisplayId>X'Kiddforceior the Corrupter</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Dire Blast</ObjectId>
+         <Damage>25</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0xbbd" id="TUD Kidd Darkness">
+      <Class>Character</Class>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0xb87" id="TUD mini boss 2">
+      <DisplayId>X'Markior the Incinerator</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Mark grey 1</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Mark grey 2</ObjectId>
+         <Damage>100</Damage>
+         <Speed>120</Speed>
+         <LifetimeMS>800</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>TUD red 1</ObjectId>
+         <Damage>100</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="4">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>TUD red 2</ObjectId>
+         <Damage>125</Damage>
+         <Speed>120</Speed>
+         <LifetimeMS>800</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xb88" id="TUD mini boss 3">
+      <DisplayId>X'Phopsior the Annihilator </DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>2</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>180</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>200</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xb8d" id="TUD One Eyed Beast">
+      <DisplayId>X'Mrunibroior the Crasher</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>3</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>TUD red 1</ObjectId>
+         <Damage>200</Damage>
+         <Size>180</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xbe3" id="TUD Real mini boss 1">
+      <DisplayId>X'Kiddforceior the Corrupter</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>0</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.4">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Dire Blast</ObjectId>
+         <Damage>100</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+         <ConditionEffect duration="5">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0xbe4" id="TUD Real mini boss 2">
+      <DisplayId>X'Markior the Incinerator</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>1</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Mark grey 1</ObjectId>
+         <Damage>75</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Mark grey 2</ObjectId>
+         <Damage>100</Damage>
+         <Speed>120</Speed>
+         <LifetimeMS>800</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>TUD red 1</ObjectId>
+         <Damage>100</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="4">Slowed</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>TUD red 2</ObjectId>
+         <Damage>125</Damage>
+         <Speed>120</Speed>
+         <LifetimeMS>800</LifetimeMS>
+         <Size>100</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xbe5" id="TUD Real mini boss 3">
+      <DisplayId>X'Phopsior the Annihilator </DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>2</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <Defense>25</Defense>
+      <StasisImmune/>
+      <StunImmune/>
+      <ParalyzeImmune/>
+      <DazedImmune/>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>180</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>200</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xb8e" id="TUD Sorcerer">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>4</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>4</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>175</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>1</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Sorc boomerang</ObjectId>
+         <Damage>3</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>1</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Rainbow Red</ObjectId>
+         <Damage>2</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Rainbow Orange</ObjectId>
+         <Damage>2</Damage>
+         <Speed>90</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Rainbow Yellow</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Rainbow Green</ObjectId>
+         <Damage>2</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>Rainbow Cyan</ObjectId>
+         <Damage>2</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>Rainbow Blue</ObjectId>
+         <Damage>2</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="10">
+         <ObjectId>Rainbow Purple</ObjectId>
+         <Damage>2</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Rainbow Violet</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="12">
+         <ObjectId>Rainbow Pink</ObjectId>
+         <Damage>2</Damage>
+         <Speed>90</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Rainbow Grey</ObjectId>
+         <Damage>2</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xbc9" id="TUD Sorcerer Deux 1">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>4</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>4</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>175</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>1</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Sorc boomerang</ObjectId>
+         <Damage>3</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>2500</LifetimeMS>
+         <Boomerang/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>White Bullet</ObjectId>
+         <Damage>1</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1200</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Rainbow Red</ObjectId>
+         <Damage>2</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Rainbow Orange</ObjectId>
+         <Damage>2</Damage>
+         <Speed>90</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Rainbow Yellow</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Rainbow Green</ObjectId>
+         <Damage>2</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>Rainbow Cyan</ObjectId>
+         <Damage>2</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>Rainbow Blue</ObjectId>
+         <Damage>2</Damage>
+         <Speed>60</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="10">
+         <ObjectId>Rainbow Purple</ObjectId>
+         <Damage>2</Damage>
+         <Speed>70</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Rainbow Violet</ObjectId>
+         <Damage>2</Damage>
+         <Speed>80</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="12">
+         <ObjectId>Rainbow Pink</ObjectId>
+         <Damage>2</Damage>
+         <Speed>90</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Rainbow Grey</ObjectId>
+         <Damage>2</Damage>
+         <Speed>100</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>75</Size>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xbc4" id="TUD Target 1">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>300</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xbc5" id="TUD Target 2">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>300</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xbc6" id="TUD Target 3">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>300</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xbc7" id="TUD Target 4">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <Projectile id="0">
+         <ObjectId>Phops laser tip</ObjectId>
+         <Damage>20</Damage>
+         <Size>300</Size>
+         <Speed>80</Speed>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Phops laser</ObjectId>
+         <Damage>20</Damage>
+         <Speed>80</Speed>
+         <Size>300</Size>
+         <LifetimeMS>1450</LifetimeMS>
+         <MultiHit/>
+         <PassesCover/>
+      </Projectile>
+   </Object>
+   <Object type="0xb8f" id="TUD 1st Switch">
+      <DisplayId>Switch</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x90</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x91</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <DrawOnGround/>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xb90" id="TUD 2nd Switch">
+      <DisplayId>Switch</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x90</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x91</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <DrawOnGround/>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xb91" id="TUD 3rd Switch">
+      <DisplayId>Switch</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x90</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiChar28x8</File>
+            <Index>0x91</Index>
+         </Texture>
+      </AltTexture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <DrawOnGround/>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xbc8" id="TUD Boss Spawner1">
+      <DisplayId>Spawner</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xbcb" id="TUD Boss Spawner2">
+      <DisplayId>Spawner</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xbcc" id="TUD Boss Spawner3">
+      <DisplayId>Spawner</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/traps_death</DeathSound>
+      <StasisImmune/>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0xb92" id="TUD Start Goblin Lord">
+      <DisplayId>The Goblin Lord</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+   </Object>
+   <Object type="0xb93" id="TUD Second Goblin Lord">
+      <DisplayId>The Goblin Lord</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+   </Object>
+   <Object type="0xb94" id="TUD Thurd Goblin Lord">
+      <DisplayId>The Goblin Lord</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+   </Object>
+   <Object type="0xbbe" id="TUD Boss Room Goblin Spawner">
+      <Class>Character</Class>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="2">
+         <Texture>
+            <File>invisible</File>
+            <Index>0</Index>
+         </Texture>
+      </AltTexture>
+   </Object>
+   <Object type="0xbbf" id="TUD Boss Room Goblin">
+      <DisplayId>The Goblin Lord</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>0</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+   </Object>
+   <Object type="0xbbc" id="TUD Sorc Skull Shot">
+      <DisplayId>Mind Controlled Sorcerer</DisplayId>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x07</Index>
+      </Texture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Z>0.24</Z>
+      <Flying/>
+      <Size>100</Size>
+      <ShadowSize>100</ShadowSize>
+      <MaxHitPoints>35000</MaxHitPoints>
+      <Defense>25</Defense>
+      <NoMiniMap/>
+      <Projectile id="0">
+         <ObjectId>TUD Staff Shot</ObjectId>
+         <Damage>40</Damage>
+         <Speed>50</Speed>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>TUD Staff Shot</ObjectId>
+         <Damage>40</Damage>
+         <Speed>30</Speed>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0xbc1" id="GL UT Chest">
+      <DisplayId>UT Chest</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x466</Index>
+      </Texture>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <Defense>0</Defense>
+      <Size>160</Size>
+      <XpMult>5.13</XpMult>
+   </Object>
+   <Object type="0xbc2" id="TUD Event">
+      <Enemy/>
+      <Class>Character</Class>
+      <DisplayId>Goblin Lord</DisplayId>
+      <AnimatedTexture>
+         <File>goblinLairChars16x16</File>
+         <Index>5</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>goblinLairChars16x16</File>
+            <Index>5</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
+      </AltTexture>
+      <HitSound>monster/goblins_hit</HitSound>
+      <DeathSound>monster/goblins_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <Defense>35</Defense>
+      <Terrain>HighPlains</Terrain>
+      <SpawnProb>0.01</SpawnProb>
+      <PerRealmMax>1</PerRealmMax>
+   </Object>
+   <Object type="0xbdc" id="TUD Showrunner">
+      <Class>Character</Class>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+   </Object>
+   <Object type="0xbdd" id="TUD Fake Chest">
+      <DisplayId>UT Chest</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x466</Index>
+      </Texture>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <Defense>0</Defense>
+      <Size>160</Size>
+      <XpMult>5.13</XpMult>
+   </Object>
+   <Object type="0xbe6" id="TUD South Test Gun">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xc8</Index>
+      </Texture>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xbe9" id="GL Nexus Turkey">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ArmorPiercing/>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0xb71" id="TUD Wall">
+      <Class>Wall</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x3c</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>goblinLairObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0xbde" id="TUD Wall 1">
+      <Class>Wall</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x28</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>goblinLairObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0xbe0" id="TUD Wall 2">
+      <Class>Wall</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>29</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>goblinLairObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0xbe1" id="TUD Wall 3">
+      <Class>Wall</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x2a</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>goblinLairObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+   <Object type="0xbe2" id="TUD Wall 4">
+      <Class>Wall</Class>
+      <Texture>
+         <File>goblinLairObjects8x8</File>
+         <Index>0x2b</Index>
+      </Texture>
+      <Top>
+         <Texture>
+            <File>goblinLairObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+      </Top>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+</Objects>

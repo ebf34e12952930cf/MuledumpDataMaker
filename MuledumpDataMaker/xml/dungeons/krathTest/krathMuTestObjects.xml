@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x109e" id="Mu Portal">
+      <DisplayId>Mu</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Mu</DungeonName>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x5e</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+   </Object>
+   <Object type="0x1097" id="Mu Key">
+      <DisplayId>Mu Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Are you a Scatman?</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <feedPower>300</feedPower>
+      <Activate id="Mu Portal">Create</Activate>
+   </Object>
+   <Object type="0x7020" id="Mu0">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x30</Index>
+      </Texture>
+      <Size>160</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+      <Quest/>
+      <Sound id="0">mutest_prismatic_scatman</Sound>
+      <Sound id="1">mutest_getter_headsplitter</Sound>
+   </Object>
+   <Object type="0x7022" id="Mu2">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x30</Index>
+      </Texture>
+      <Size>160</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+      <Quest/>
+      <Sound id="0">mutest_getter_headsplitter</Sound>
+      <Projectile id="0">
+         <ObjectId>Giant Cannonball</ObjectId>
+         <Speed>120</Speed>
+         <Damage>0</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>White Star Stunner</ObjectId>
+         <Speed>140</Speed>
+         <Damage>0</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Pet Bullet 2</ObjectId>
+         <Speed>160</Speed>
+         <Damage>0</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Killer Carols</ObjectId>
+         <Speed>80</Speed>
+         <Damage>0</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1500</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <Amplitude>0.1</Amplitude>
+         <Frequency>1</Frequency>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Super Blast Red</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+   <Object type="0x7021" id="Mu1">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>krathTestObjects08x08</File>
+         <Index>0x30</Index>
+      </Texture>
+      <Size>160</Size>
+      <XpMult>1.0</XpMult>
+      <MaxHitPoints>100000</MaxHitPoints>
+      <ShadowSize>80</ShadowSize>
+      <Quest/>
+      <Sound id="0">mutest_prismatic_scatman</Sound>
+      <Projectile id="0">
+         <ObjectId>Giant Cannonball</ObjectId>
+         <Speed>120</Speed>
+         <Damage>0</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>White Star Stunner</ObjectId>
+         <Speed>140</Speed>
+         <Damage>0</Damage>
+         <Size>140</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Pet Bullet 2</ObjectId>
+         <Speed>160</Speed>
+         <Damage>0</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="3">
+         <ObjectId>Killer Carols</ObjectId>
+         <Speed>80</Speed>
+         <Damage>0</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1500</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+         <Amplitude>0.1</Amplitude>
+         <Frequency>1</Frequency>
+      </Projectile>
+      <Projectile id="4">
+         <ObjectId>Horseman Blast</ObjectId>
+         <Speed>80</Speed>
+         <Damage>0</Damage>
+         <Size>100</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+         <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="5">
+         <ObjectId>Zedshot</ObjectId>
+         <Speed>20</Speed>
+         <Damage>1</Damage>
+         <Size>150</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.0</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="6">
+         <ObjectId>Zedshot</ObjectId>
+         <Speed>50</Speed>
+         <Damage>1</Damage>
+         <Size>150</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>2.5</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="7">
+         <ObjectId>Zedshot</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>150</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>3.0</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <Projectile id="8">
+         <ObjectId>White Superblast</ObjectId>
+         <Speed>120</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>600</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="9">
+         <ObjectId>Super Blast Red</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="10">
+         <ObjectId>Super Blast Red</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="11">
+         <ObjectId>Obsidian Vortex</ObjectId>
+         <Speed>120</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>4.0</Amplitude>
+         <Frequency>1.0</Frequency>
+         <Boomerang/>
+      </Projectile>
+      <Projectile id="12">
+         <ObjectId>Dragon Eye Blast</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>180</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="13">
+         <ObjectId>Dragon Attack Green Ball</ObjectId>
+         <Speed>70</Speed>
+         <Damage>1</Damage>
+         <Size>160</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="14">
+         <ObjectId>H Creation Wave</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="15">
+         <ObjectId>H Creation Wave</ObjectId>
+         <Speed>80</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="16">
+         <ObjectId>H Creation Wave</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="17">
+         <ObjectId>Dragon Attack Black Ray</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>1200</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>1.0</Amplitude>
+         <Frequency>0.4</Frequency>
+      </Projectile>
+      <Projectile id="18">
+         <ObjectId>Yellow Wall</ObjectId>
+         <Speed>30</Speed>
+         <Damage>1</Damage>
+         <Size>180</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="19">
+         <ObjectId>Yellow Wall</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>800</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="20">
+         <ObjectId>Yellow Wall</ObjectId>
+         <Speed>90</Speed>
+         <Damage>1</Damage>
+         <Size>220</Size>
+         <LifetimeMS>600</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="21">
+         <ObjectId>Yellow Wall</ObjectId>
+         <Speed>120</Speed>
+         <Damage>1</Damage>
+         <Size>240</Size>
+         <LifetimeMS>400</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="22">
+         <ObjectId>H Creation Blast</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>170</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="23">
+         <ObjectId>Icecream Bullet</ObjectId>
+         <Speed>160</Speed>
+         <Damage>1</Damage>
+         <Size>170</Size>
+         <LifetimeMS>600</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="24">
+         <ObjectId>Lightning Bolt</ObjectId>
+         <Speed>70</Speed>
+         <Damage>1</Damage>
+         <Size>170</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <Amplitude>1.0</Amplitude>
+         <Frequency>6</Frequency>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="25">
+         <ObjectId>Tentacle Ball</ObjectId>
+         <Speed>120</Speed>
+         <Damage>1</Damage>
+         <Size>150</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="26">
+         <ObjectId>Dragon Eye Laser</ObjectId>
+         <Speed>100</Speed>
+         <Damage>1</Damage>
+         <Size>200</Size>
+         <LifetimeMS>800</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="27">
+         <ObjectId>Pink Slash</ObjectId>
+         <Speed>60</Speed>
+         <Damage>1</Damage>
+         <Size>120</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <Projectile id="28">
+         <ObjectId>Magic Sparkle</ObjectId>
+         <Speed>90</Speed>
+         <Damage>1</Damage>
+         <Size>120</Size>
+         <LifetimeMS>2000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+   </Object>
+</Objects>

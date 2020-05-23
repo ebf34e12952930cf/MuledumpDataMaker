@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<GroundTypes>
+   <Ground type="0xbf0" id="GLTplain">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x00</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf2" id="GLTboss1">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x02</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf3" id="GLTboss2">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x03</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf4" id="GLTboss3">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x04</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf5" id="GLTboss4">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x05</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf6" id="GLTboss5">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x06</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf7" id="GLTboss6">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x07</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf8" id="GLTboss7">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x08</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbf9" id="GLTboss8">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x09</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbfa" id="GLTboss9">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x0a</Index>
+      </Texture>
+   </Ground>
+   <Ground type="0xbfb" id="GLInside1">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x30</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0xbfc" id="GLInside2">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x31</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0xbfd" id="GLInside3">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x32</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0xbfe" id="GLInsideGrass">
+      <RandomTexture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x34</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x33</Index>
+         </Texture>
+         <Texture>
+            <File>gemLordObjects8x8</File>
+            <Index>0x35</Index>
+         </Texture>
+      </RandomTexture>
+   </Ground>
+   <Ground type="0xbff" id="GLInsidewater">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x36</Index>
+      </Texture>
+      <Speed>0.7</Speed>
+      <Animate dx=".3" dy=".3">Wave</Animate>
+      <Sink/>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0xc00" id="GLPurplefloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xc01" id="GLGreenTitles">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x60</Index>
+      </Texture>
+      <BlendPriority>6</BlendPriority>
+   </Ground>
+   <Ground type="0xc02" id="GLPinkfloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x61</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0xc03" id="GLOrangefloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x62</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0xc04" id="GLCyanfloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x63</Index>
+      </Texture>
+      <BlendPriority>5</BlendPriority>
+   </Ground>
+   <Ground type="0xc05" id="GLLellowfloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x64</Index>
+      </Texture>
+      <BlendPriority>4</BlendPriority>
+   </Ground>
+   <Ground type="0xc06" id="GLWarmPurpfloor">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x65</Index>
+      </Texture>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xc07" id="GLWarmPurptrans1">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <Speed>0.9</Speed>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xc08" id="GLWarmPurptrans2">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <Speed>0.8</Speed>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xc09" id="GLWarmPurptrans3">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <Speed>0.7</Speed>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xc0a" id="GLWarmPurptrans4">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <Speed>0.6</Speed>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xc0b" id="GLWarmPurptrans5">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x3f</Index>
+      </Texture>
+      <Speed>0.5</Speed>
+      <BlendPriority>0</BlendPriority>
+   </Ground>
+   <Ground type="0xbf1" id="GLWalkerNoWalking">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x61</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+      <NoWalk/>
+   </Ground>
+   <Ground type="0xc0c" id="GLSlowWater">
+      <Texture>
+         <File>gemLordObjects8x8</File>
+         <Index>0x36</Index>
+      </Texture>
+      <Animate dx=".3" dy=".3">Wave</Animate>
+      <BlendPriority>2</BlendPriority>
+      <Speed>0.5</Speed>
+   </Ground>
+</GroundTypes>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<GroundTypes>
+   <Ground type="0x850" id="Magic Woods Grass">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0b</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0x851" id="Magic Woods White Flower Grass">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0c</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0x852" id="Magic Woods Red Flower Grass">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0d</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0x853" id="Magic Woods Yellow Flower Grass">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0e</Index>
+      </Texture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground type="0x854" id="Magic Woods Water">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <Sink/>
+      <Animate dx=".33" dy=".33">Flow</Animate>
+      <BlendPriority>1</BlendPriority>
+      <Speed>0.7</Speed>
+   </Ground>
+   <Ground type="0x855" id="Magic Woods Dirt Unwalkable">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x14</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+      <NoWalk/>
+   </Ground>
+   <Ground type="0x856" id="Magic Woods Dirt">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x14</Index>
+      </Texture>
+      <BlendPriority>3</BlendPriority>
+   </Ground>
+   <Ground type="0x857" id="Magic Woods Boss Water">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <Sink/>
+      <Animate dx=".33" dy=".33">Flow</Animate>
+      <BlendPriority>2</BlendPriority>
+      <Speed>0.7</Speed>
+   </Ground>
+   <Ground type="0x858" id="Enchanted Fountain Water">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <Sink/>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <Animate dx=".33" dy=".33">Flow</Animate>
+      <BlendPriority>1</BlendPriority>
+      <Speed>0.7</Speed>
+      <DisplayId>Enchanted Fountain Water</DisplayId>
+   </Ground>
+   <Ground type="0x859" id="Enchanted Fountain Water Center">
+      <Texture>
+         <File>magicWoodsObjects8x8</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <Sink/>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <Animate dx=".33" dy=".33">Flow</Animate>
+      <BlendPriority>1</BlendPriority>
+      <Speed>0.7</Speed>
+      <DisplayId>Enchanted Fountain Water</DisplayId>
+   </Ground>
+   <Ground id="Fairy Fountain Stone" type="0x85a">
+      <RandomTexture>
+         <Texture>
+            <File>magicWoodsObjects8x8</File>
+            <Index>0x3e</Index>
+         </Texture>
+         <Texture>
+            <File>magicWoodsObjects8x8</File>
+            <Index>0x3e</Index>
+         </Texture>
+         <Texture>
+            <File>magicWoodsObjects8x8</File>
+            <Index>0x3f</Index>
+         </Texture>
+         <Texture>
+            <File>magicWoodsObjects8x8</File>
+            <Index>0x40</Index>
+         </Texture>
+      </RandomTexture>
+      <BlendPriority>2</BlendPriority>
+   </Ground>
+   <Ground id="SpiderDirt Unwalkable" type="0x519">
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x1c</Index>
+      </Texture>
+      <Edge>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x23</Index>
+         </Texture>
+      </Edge>
+      <Corner>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x25</Index>
+         </Texture>
+      </Corner>
+      <RandomOffset/>
+      <NoWalk/>
+   </Ground>
+   <Ground id="Spider Dirt Hole Unwalkable" type="0x51a">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x02</Index>
+      </Texture>
+      <Edge>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x23</Index>
+         </Texture>
+      </Edge>
+      <Corner>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x25</Index>
+         </Texture>
+      </Corner>
+      <NoWalk/>
+   </Ground>
+   <Ground id="Jungle Temple Floor TL" type="0x51b">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x84</Index>
+      </Texture>
+   </Ground>
+   <Ground id="Jungle Temple Floor TR" type="0x51c">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x84</Index>
+      </Texture>
+   </Ground>
+   <Ground id="Jungle Temple Floor BR" type="0x51d">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x84</Index>
+      </Texture>
+   </Ground>
+   <Ground id="Jungle Temple Floor BL" type="0x51e">
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x84</Index>
+      </Texture>
+   </Ground>
+</GroundTypes>
